@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body >
+    <table border="1">
+        <thead>
+            <tr>
+                <td colspan="2">Exam Registration From</td>
+            </tr>
+        </thead>
+        <tbody>
+            <form action="#">
+                <tr>
+                    <td rowspan="2">
+                        <label for="name">Student name</label>
+                    </td>
+                    <td>
+                        First name:<input type="text" name="Fname" id="Fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last name:<input type="text" name="Lname" id="Fname">
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    <label for="pno">Phone number</label>
+                </td>
+                 <td> 
+                    <input type="number" name="pho" id="pno">
+                 </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" id="male">Male
+                        <input type="radio" name="Gender" id="Female">Female
+                        <input type="radio" name="Gender" id="other">Other
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label for="Center">Exam center</label>
+                    </td>
+                    <td>
+                        <select name="center" id="center" >
+                            <option value="hyd" selected>Hyderabad</option>
+                            <option value="sec" >Secunderabad</option>
+                            <option value="wgl" >Warangal</option>
+                            <option value="mdk" >Medak</option>
+                        </select>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                        <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Upload Image</td>
+                    <td><input type="file"></td>
+                 </tr>
+                 <tr>
+                    <td colspan="2">
+                        <input type="submit">
+                    </td>
+                 </tr>
+            </form>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> Note:Please make sure that given information is accurate .</td>
+            </tr>
+           
+        </tfoot>
+    </table>
+    
+</body>
+</html>
